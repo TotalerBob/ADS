@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MyList extends AbstractList implements List {
 
-    private ListNode header = new ListNode(null);
+    protected ListNode header = new ListNode(null);
 
     @Override
     public int size() {
